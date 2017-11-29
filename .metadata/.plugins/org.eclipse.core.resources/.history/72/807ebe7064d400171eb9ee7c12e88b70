@@ -1,0 +1,27 @@
+
+public class Student {
+	public String mName;
+	
+	private int mAge;
+	
+	public int getAge(){
+		return mAge;
+	}
+	public void setAge(int age){
+		mAge = age;
+	}
+	
+
+	public Student() {
+	
+	}
+	
+	public Student(String name) {
+		mName = name;
+	}
+
+	public Student(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+}

@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int salary = 5000;
+
+		if(salary < 500 || salary > 2000){
+			System.out.println("NEVER!");
+		}else{
+			System.out.println("YES!");
+		}
+	}
+
+}

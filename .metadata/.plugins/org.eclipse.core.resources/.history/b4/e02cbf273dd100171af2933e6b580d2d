@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int salary = 5000;
+		int length = 10;
+
+		boolean b = salary < 500;
+		
+		if (b == true) {
+			System.out.println("NEVER!");
+		} else {
+			System.out.println("YES!");
+		}
+
+		System.out.println(salary < 500 ? salary > 2000 ? "NEVER!" : "YES" : "YES!");
+	}
+}

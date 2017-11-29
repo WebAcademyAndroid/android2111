@@ -1,0 +1,26 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Student s = new Student();
+		s.mName = "Ivan";
+		s.setAge(22);
+
+		Student s2 = new Student("Ivan");
+		s2.setAge(22);
+
+		Student s3 = new Student("Ivan", 22);
+
+		test(s);
+		test(s2);
+		test(s3);
+		
+		Student s4;
+		test(s4);
+	}
+
+	public static void test(Student student) {
+		System.out.println(student.mName);
+	}
+
+}

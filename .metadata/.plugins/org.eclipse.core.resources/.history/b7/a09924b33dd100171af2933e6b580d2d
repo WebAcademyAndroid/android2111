@@ -1,0 +1,31 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*int salary = 5000;
+		int length = 10;
+
+
+		
+		if (salary < 500) {
+			System.out.println("NEVER!");
+		} else {
+			System.out.println("YES!");
+		}
+
+		System.out.println(salary < 500 ? salary > 2000 ? "NEVER!" : "YES" : "YES!");*/
+		
+		int salary = 101;
+		switch(salary){
+			case 100:
+				System.out.println("NEVER!");
+				break;
+			case 1000:
+				System.out.println("YES!");
+				break;
+			case 2000:
+				System.out.println("NEVER!");
+				break;
+		}
+	}
+}
