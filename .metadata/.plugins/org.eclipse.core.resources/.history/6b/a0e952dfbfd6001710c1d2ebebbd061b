@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Circle c = new Circle(10);
+		print(c, c);
+
+		Square s = new Square(10);
+		print(s, s);
+	}
+
+	public static void print(IShape shape, BaseShape bShape) {
+		bShape.print();
+		System.out.println(shape.calculate());
+
+		if (shape instanceof Circle) {
+			Circle c = (Circle) shape;
+			c.test();
+		}
+	}
+}

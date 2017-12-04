@@ -1,0 +1,21 @@
+import cars.BMW;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*Circle c = new Circle(10);
+		print(c);
+
+		Square s = new Square(10);
+		print(s);*/
+		
+		BMW bmw = new BMW();
+		bmw.start();
+		bmw.stop();
+	}
+
+	/*public static void print(BaseShape bShape) {
+		bShape.print();
+		System.out.println(bShape.calculate());
+	}*/
+}

@@ -1,0 +1,9 @@
+
+public abstract class BaseShape {
+
+	public String type;
+
+	public void print() {
+		System.out.println("This shape is " + type);
+	}
+}

@@ -1,0 +1,20 @@
+
+public class Circle extends BaseShape implements IShape {
+
+	private int mRadius;
+
+	public Circle(int radius) {
+		mRadius = radius;
+		type = "circle";
+	}
+
+	@Override
+	public double calculate() {
+		return mRadius * mRadius * 3.14;
+	}
+
+	public void test() {
+
+	}
+
+}

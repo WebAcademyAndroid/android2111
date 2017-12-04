@@ -1,0 +1,15 @@
+
+public class Square extends BaseShape implements IShape {
+
+	private int mSide;
+
+	public Square(int side) {
+		mSide = side;
+		type = "square";
+	}
+
+	@Override
+	public double calculate() {
+		return mSide * mSide;
+	}
+}

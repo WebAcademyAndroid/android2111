@@ -1,0 +1,19 @@
+
+public class Circle implements IShape {
+
+	private int mRadius;
+
+	public Circle(int radius) {
+		mRadius = radius;
+	}
+
+	@Override
+	public double calculate() {
+		return mRadius * mRadius * 3.14;
+	}
+	
+	public void test(){
+		
+	}
+		
+}

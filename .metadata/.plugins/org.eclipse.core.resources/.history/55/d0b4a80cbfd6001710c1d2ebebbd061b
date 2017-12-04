@@ -1,0 +1,14 @@
+
+public class Square implements IShape {
+	
+	private int mSide;
+
+	public Square(int side) {
+		mSide = side;
+	}
+
+	@Override
+	public double calculate() {
+		return mSide * mSide;
+	}
+}
