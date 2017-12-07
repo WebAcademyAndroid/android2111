@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="test">TEST</string>
+    <string name="button">Click me</string>
+    <color name="color1">#fff</color>
+</resources>
