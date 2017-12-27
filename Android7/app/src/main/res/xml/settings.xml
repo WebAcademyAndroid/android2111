@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Preference category">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_preference_2"
+            android:summary="lkj lkj lkj lk jlkj lkjas;dlfgasg asflgasdf;gpjiasdfgas dg;dfjigsd fg"
+            android:title="Check box preference" />
+    </PreferenceCategory>
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:dialogIcon="@android:drawable/presence_audio_away"
+        android:key="edit_text_preference_1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Edit text preference"
+        android:visibility="visible" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_preference_1"
+        android:title="Switch preference" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="check_box_preference_1"
+        android:title="Check box preference" />
+</PreferenceScreen>
