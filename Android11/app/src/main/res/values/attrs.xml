@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RequiredEditText">
+        <attr name="required" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MyButton">
+        <attr name="text" format="string|reference" />
+        <attr name="src" format="reference" />
+    </declare-styleable>
+</resources>

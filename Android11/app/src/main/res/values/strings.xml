@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android11</string>
+    <string name="text" translatable="false">text</string>
+</resources>
